@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CayciKullaniciApp</string>
+    <string name="cay">Cay</string>
+    <string name="cay_text">ÇAY</string>
+    <string name="ÇAY">ÇAY</string>
+    <string name="adetText">adet : 0</string>
+</resources>

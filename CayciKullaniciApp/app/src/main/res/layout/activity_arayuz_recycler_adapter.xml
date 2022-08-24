@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="13dp"
+    android:id="@+id/LinearLayout"
+    android:background="#6EC3FD"
+    android:orientation="vertical"
+    tools:context=".adapters.ArayuzRecyclerAdapter">
+
+    <TextView
+        android:id="@+id/recycler_row_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="odano-isimsoyisim@kbb.cay"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="#AE2525"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/recycler_row_order_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:textSize="14sp"
+        android:text="August 18,2022 at 2:17:37 PM UTC+3"
+        ></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_row_order_list"
+        android:text="99 adet KAHVE"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/darkGray"
+        ></TextView>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/gonderildiButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="GÖNDERİLDİ"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"></Button>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

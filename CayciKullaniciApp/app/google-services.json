@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "736481191452",
+    "project_id": "abcd-a4ba9",
+    "storage_bucket": "abcd-a4ba9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736481191452:android:5f36d26562b5f62af4a1d9",
+        "android_client_info": {
+          "package_name": "com.mert.caycikullaniciapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736481191452-r0q3vfsn39ja91og3h67l5tqi3c50doj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDygwpk0o_TVg7INlBQ0GhBLp7CcaYibQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736481191452-r0q3vfsn39ja91og3h67l5tqi3c50doj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
